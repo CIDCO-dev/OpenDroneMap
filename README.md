@@ -6,8 +6,6 @@
 
 ## Procédure globale
 
-&nbsp;
-
 1)  Préprocessing du vidéo (méthode à déterminer)
 
 2)  Créer structure de répertoire du projet
