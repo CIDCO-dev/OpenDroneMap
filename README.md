@@ -2,12 +2,9 @@
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
 
 
->>## Procédure globale
+## Procédure globale
 
 &nbsp;
 
@@ -30,7 +27,7 @@
 &nbsp;
 
 &nbsp;
->>## Instructions
+## Instructions
 
 1)  Préprocessing du vidéo
 
@@ -55,7 +52,7 @@
 
 4)  exécuter ODM
 
-> copier la commande et changer <nom du projet\>
+copier la commande et changer <nom du projet>
 ```
 >sudo docker run -ti --rm -v /data/ODM/datasets:/datasets --gpus all opendronemap/odm:gpu --project-path /datasets <nom du projet\> --min-num-features 800
 ```
@@ -63,7 +60,7 @@
 
 5)  Transférer les dossiers & fichiers nécessaires
 
-> dans "/data/ODM/datasets/\<nom\_du\_projet\>" il y aura les répertoires suivant:
+dans "/data/ODM/datasets/\<nom\_du\_projet\>" il y aura les répertoires suivant:
 ```
 -   odm_filterpoints/ qui contient un nuage de point
 
