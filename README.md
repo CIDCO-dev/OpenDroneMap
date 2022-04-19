@@ -50,11 +50,11 @@ chmod -R 777 <nom du projet>
 https://drive.google.com/file/d/1EIDbcydEsTeYsmdIYh2SNnl2VOy8Px1g/view?usp=sharing
 
 -   les images doivent se retrouver dans un répertoire nommé images\
-ex: /data/ODM/datasets/<nom du projet>/images
+ex: /data/ODM/datasets/<nom du projet>images
 
 4)  exécuter ODM
 
-copier la commande et changer <nom du projet>
+copier la commande et changer la variable nom_du_projet
 ```
 sudo docker run -ti --rm -v /data/ODM/datasets:/datasets --gpus all opendronemap/odm:gpu --project-path /datasets nom_du_projet --min-num-features 800
 ```
@@ -65,7 +65,7 @@ sudo docker run -ti --rm -v /data/ODM/datasets:/datasets --gpus all opendronemap
 dans "/data/ODM/datasets/\<nom\_du\_projet\>" il y aura les répertoires suivant:
 -   odm_filterpoints/ qui contient un nuage de point
 
--   odm_georeferencing/ qui contient des fichiers pour les coordonnees gps
+-   odm_georeferencing/ qui contient des fichiers pour les coordonnées gps
     de la trajectoire
 
 -   odm_orthophoto/ qui contient 3 orthophotos identiques
