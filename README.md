@@ -41,7 +41,7 @@ mkdir nom_du_projet
 ```
 -   changer les permissions
 ```
-chmod -R 777 <nom du projet>
+chmod -R 777 nom_du_projet
 ```
 
 3)  Transférer les photos via ftp dans tsunami dans le répertoire du projet\
@@ -50,7 +50,7 @@ chmod -R 777 <nom du projet>
 https://drive.google.com/file/d/1EIDbcydEsTeYsmdIYh2SNnl2VOy8Px1g/view?usp=sharing
 
 -   les images doivent se retrouver dans un répertoire nommé images\
-ex: /data/ODM/datasets/<nom du projet>images
+ex: /data/ODM/datasets/nom_du_projet/images
 
 4)  exécuter ODM
 
@@ -62,7 +62,7 @@ sudo docker run -ti --rm -v /data/ODM/datasets:/datasets --gpus all opendronemap
 
 5)  Transférer les dossiers & fichiers nécessaires
 
-dans "/data/ODM/datasets/\<nom\_du\_projet\>" il y aura les répertoires suivant:
+dans "/data/ODM/datasets/nom_du_projet" il y aura les répertoires suivant:
 -   odm_filterpoints/ qui contient un nuage de point
 
 -   odm_georeferencing/ qui contient des fichiers pour les coordonnées gps
