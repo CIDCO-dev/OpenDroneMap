@@ -1,27 +1,10 @@
 # Procédure open drone map
 
-&nbsp;
 
+## Instructions:
 
-
-## Procédure globale
-
-1)  Préprocessing du vidéo (méthode à déterminer)
-
-2)  Créer structure de répertoire du projet
-
-3)  Transférer les photos via ftp dans tsunami dans le répertoire du projet
-
-4)  Exécuter ODM
-
-5)  Transférer les dossiers & fichiers nécessaires
-
-&nbsp;
-
-&nbsp;
-## Instructions
-
-1)  Préprocessing du vidéo
+1)  Procédure du traitement vidéo \
+https://docs.google.com/document/d/1KOqPm8Hj5J-rNuk6TQHmydN5djKZmRTZ73CtMEVwr1I/edit
 
 
 2)  Créer structure de répertoire du projet
