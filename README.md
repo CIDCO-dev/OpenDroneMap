@@ -13,11 +13,12 @@
 1.04- Extraire les données GPS spécifiques pour la vidéo ( en utilisant les informations en utilisants les données de l'étape 1.3). \
 \
 1.05- Préparer le fichier “CSV” (Long,Lat,Temps,Running-Time) \
-![csv format]("https://user-images.githubusercontent.com/85508789/168834044-1dbf58fb-5070-41c1-8a41-9c61325fbb71.png")
+![csv format](https://github.com/patcmorneau/OpenDroneMap/blob/main/Doc/odmcsv.png)
 \
 1.06- Ouvrir le logiciel Dashware et charger la vidéo dans “Input Settings” \
 \
 1.07- Choisir le fichier GPS et le “data profile” afin d’extraire les informations utiles. \
+![dataProfile](https://github.com/patcmorneau/OpenDroneMap/blob/main/Doc/dataprofile.png)
 \
 1.08- Modifier l’affectation des lignes et colonnes du fichier GPS pour bien décoder les bonnes informations. \
 \
@@ -26,6 +27,7 @@
 1.10- Validation des données avant la création de la vidéo finale en comparant le résultat avec celui obtenu avec GIS a travers le module “Analysis by position”. \
 \
 1.11- Créer la vidéo finale. \
+![creer video](https://github.com/patcmorneau/OpenDroneMap/blob/main/Doc/createvid.png)
 \
 1.2- Extraire les images avec ffmpeg ou autre:
 ffmpeg -i VIDEO -vf fps=X PATH/frame%d.png
